@@ -1,0 +1,16 @@
+# Default values for training-app.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 3
+
+appName: k8s-deployment-demo
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 5302
