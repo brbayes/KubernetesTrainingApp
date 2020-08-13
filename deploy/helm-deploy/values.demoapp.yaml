@@ -1,0 +1,4 @@
+image:
+  repository: kubernetestrainingapp
+  pullPolicy: Never
+  tag: test1
